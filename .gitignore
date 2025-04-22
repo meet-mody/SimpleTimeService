@@ -1,0 +1,15 @@
+# Ignore .env folder
+.env/
+*.env
+
+# Ignore terraform related files 
+**/.terraform/*
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars.json
+
+# Miscellaneous
+.idea/
+.DS_Store
+Thumbs.db
