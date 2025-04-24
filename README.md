@@ -5,17 +5,22 @@
 │   ├── Dockerfile            # Defines the steps to build a Docker image
 │   ├── main.py               # Terraform outputs definition file (optional)
 │   ├── requirements.txt      # Lists Python package dependencies
-│   ├── [README.md](./app/README.md)           # (Optional) Application README file
+│   ├── README.md             # (Optional) Application README file
 ├── terraform/                # Directory for Terraform infrastructure code
 │   ├── main.tf               # Main Terraform configuration file
 │   ├── variables.tf          # Terraform variables definition file
 │   ├── outputs.tf            # Terraform outputs definition file (optional)
 │   ├── terraform.tfvars      # Specifies values for Terraform variables
 │   ├── provider.tf           # Configures the Cloud provider
-│   ├── [README.md](./terraform/README.md)           # (Optional) Terraform variables values file                 
+│   ├── README.md             # (Optional) Terraform variables values file                 
 ├── .gitignore                # Specifies intentionally untracked files that Git should ignore
 ├── README.md                 # Project README file (this file)
 ```
+
+## Documentation:
+
+* [Application Documentation](./app/README.md)
+* [Terraform Documentation](./terraform/README.md)
 
 ## Description
 
