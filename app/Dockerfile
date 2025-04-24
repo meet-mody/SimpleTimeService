@@ -19,8 +19,5 @@ RUN chown -R simpleuser:simpleuser /app
 # Switch to the non-root user
 USER simpleuser
 
-# Make port 5000 available to the outside world
-EXPOSE 4022
-
 # Define the command to run the application
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]

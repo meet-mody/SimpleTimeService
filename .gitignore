@@ -1,11 +1,12 @@
 # Ignore .env folder
 .env/
 *.env
+.venv/
+
 
 # Ignore terraform related files 
-**/.terraform/*
-.terraform.lock.hcl
-*.tfstate
+**/.terraform*
+*.tfstate*
 *.tfstate.backup
 *.tfvars.json
 
