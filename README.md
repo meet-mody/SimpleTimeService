@@ -1,5 +1,5 @@
 ## Project Structure
-
+```
 ├── app/                      # Directory for your application's source code
 │   ├── .dockerignore         # Specifies intentionally untracked files that Docker should exclude
 │   ├── Dockerfile            # Defines the steps to build a Docker image
@@ -15,7 +15,7 @@
 │   ├── [README.md](./terraform/README.md)           # (Optional) Terraform variables values file                 
 ├── .gitignore                # Specifies intentionally untracked files that Git should ignore
 ├── README.md                 # Project README file (this file)
-
+```
 
 ## Description
 
