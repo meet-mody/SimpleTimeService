@@ -37,7 +37,7 @@ variable "cloud_run_service_name" {
 variable "public_subnet_cidrs" {
   description = "CIDR ranges for the public subnets"
   type        = list(string)
-  default     = ["10.0.0.0/24", "10.0.1.0/24"] # Example values, update in tfvars
+  default     = ["10.0.0.0/28", "10.0.1.0/28"] # Example values, update in tfvars
 }
 
 variable "private_subnet_cidrs" {
